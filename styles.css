@@ -1,4 +1,4 @@
-/* Reset and Global Styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,39 +11,80 @@ body {
     color: #333;
     line-height: 1.6;
 }
+nav {
+    background-color: #1f2937;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-/* Header */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3b82f6;
+}
+
 header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
+    flex-direction: row;
+    align-items: left;
+    padding: 1rem; 
     background-color: #1f2937;
     color: #fff;
     text-align: center;
+    gap: 25rem; 
+}
+
+.profile-img {
+    width: 150px; 
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 1.8rem; 
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1rem; 
     font-weight: 300;
     color: #9ca3af;
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
 }
-
-/* Section Container */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Aligns text elements on the same line */
+    gap: 1rem; /* Adds space between h1 and paragraph */
+}
 .container {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
 
-/* Section Styling */
 section {
     background-color: #fff;
     border-radius: 12px;
@@ -66,13 +107,6 @@ section h2 {
     padding-bottom: 0.5rem;
 }
 
-/* Text and List Styling */
-section p {
-    color: #4b5563;
-    font-size: 1rem;
-    line-height: 1.8;
-}
-
 section ul {
     list-style-type: none;
     padding-left: 1.2rem;
@@ -93,12 +127,6 @@ ul li:before {
     font-size: 1.5rem;
 }
 
-/* Contact and Link Styling */
-#contact p {
-    font-weight: bold;
-    color: #111827;
-}
-
 a {
     color: #3b82f6;
     text-decoration: none;
@@ -110,8 +138,6 @@ a:hover {
     color: #2563eb;
     text-decoration: underline;
 }
-
-/* Button Styling for Contact Links */
 .contact-button {
     display: inline-block;
     background-color: #3b82f6;
