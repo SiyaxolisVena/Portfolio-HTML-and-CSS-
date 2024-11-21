@@ -4,13 +4,13 @@ The project emphasizes clean design, accessibility, and responsiveness across al
 
 You can access my portfolio on this site https://siyaxolisvena.github.io/Portfolio-HTML-and-CSS-/
 
-Features
+##Features
 Responsive Design: Optimized for mobile, tablet, and desktop views using modern CSS practices.
 Sticky Navigation Bar: Provides easy access to different sections of the portfolio.
 Dynamic Sections: Highlights professional summary, skills, experience, education, and contact information.
 Hover Effects: Engages users with interactive UI elements.
 Clean Codebase: Follows modern HTML and CSS best practices for maintainability.
-Technologies Used
+## Technologies Used
 HTML5: Structuring the content.
 CSS3: Styling and layout, including responsiveness.
 Flexbox and Media Queries: Ensuring optimal display across devices.
