@@ -2,6 +2,8 @@
 This is a responsive portfolio website showcasing Siyaxolisa Vena's skills, experience, and achievements as a software developer and full-stack engineer. 
 The project emphasizes clean design, accessibility, and responsiveness across all screen sizes.
 
+You can access my portfolio on this site https://siyaxolisvena.github.io/Portfolio-HTML-and-CSS-/
+
 Features
 Responsive Design: Optimized for mobile, tablet, and desktop views using modern CSS practices.
 Sticky Navigation Bar: Provides easy access to different sections of the portfolio.
